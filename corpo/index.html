@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"/>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GamerSaúde</title>
+<body>
+</head>
+<header>
+   
+    <div class="logo">
+        
+         <img src="saude.png" alt="" width="70">
+         
+    </div>
+    <div class="menu">
+              <ul>
+                    <li>
+                        <a  href="index.html">Home</a>
+                        <a href="produtos.html">Produtos</a>
+                        <a  href="contado.html">Contato</a>
+                    </li>
+              </ul>
+    </div> 
+    <div id="respo">
+
+    </div>
+</header>
+<main>
+ 
+    <div class="nume">
+     <p>Quantas Horas Você Joga:<input type="number" name="Numero" id="nmrhr" placeholder="Digite/Hora.."></p>
+     <br><p><input type="button" value="Verificar" id="btn1" onclick="verificar()"></p>
+    </div>
+  
+    <div id="resul">
+    <br><p>Resultado:</p>
+    </div>
+   
+</main>
+<div class="tabel">
+    <table border="1">
+        <tr>
+            <td class="td1">Tempo</td>
+            <td class="td2">Status</td>
+            
+        </tr>
+        <tr>
+            <td>1Hora</td>
+            <td>Normal I</td>
+        </tr>
+        <tr>
+            <td>2Horas</td>
+            <td>Normal II</td>
+        </tr>
+        <tr>
+            <td>3Horas</td>
+            <td>Elevado</td>
+        </tr>
+         <tr>
+             <td>4Horas</td>
+             <td>Preocupante I</td>
+         </tr>
+         <tr>
+             <td>5Horas</td>
+             <td>Preocupante II</td>
+         </tr>
+         <tr>
+             <td>6horas</td>
+             <td>Muito Preocupante I</td>
+         </tr>
+         <tr>
+             <td>7Horas</td>
+             <td>Muito Preocupante II</td>
+         </tr>
+         <tr>
+             <td>8Horas</td>
+             <td>Urgente I</td>
+         </tr>
+         <tr>
+             <td>9Horas</td>
+             <td>Urgente II</td>
+         </tr>
+    </table>
+</div>
+<div class="d">
+<h1>Dicas Para Uma Saúde Gamer Melhor:</h1>
+<section class="dicas">
+ </div>   
+<div class="dctab">
+<h2 class="cro">Dica 1:</h2>
+<button type="submit" class="bot" onclick="dica1()"><i class="fas fa-plus"></i></button>
+<div class="dc" id="dica1">
+
+
+</div>
+
+<h2 class="cro">Dica 2 : </h2>
+<button type="submit" class="bot"  onclick="dica2()"><i class="fas fa-plus"></i></button>
+<div class="dc"  id="dica2">
+
+
+</div>
+
+<h2 class="cro">Dica 3 :</h2>
+<button  class="bot" type="submit"  onclick="dica3()"><i class="fas fa-plus"></i></button>
+<div class="dc"  id="dica3">
+
+
+</div>
+
+<h2 class="cro">Dica 4 :</h2>
+<button type="submit" class="bot"  onclick="dica4()"><i class="fas fa-plus"></i></button>
+<div class="dc" id="dica4">
+ 
+
+</div>
+<button type="submit" class="bot"  id="rev"  onclick="retorno()"><i class="fas fa-reply"></i></button>
+</div>
+</section>
+<footer>
+    <div class="container">
+        <i id="face" class="fab fa-facebook-f"></i>
+        <i id="inst" class="fab fa-instagram"></i>
+        <i id="what"class="fab fa-whatsapp"></i>
+        <p></p>
+        <p>® 2021 GAMERSAÚDE – TODOS OS DIREITOS RESERVADOS</p>
+    </div>
+    
+</footer>
+   <script src="app.js"></script>
+</body>
+</html>

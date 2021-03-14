@@ -1,0 +1,338 @@
+*{
+    box-sizing: border-box;
+    margin: 0px ;
+    padding: 0px ;
+}
+header{
+    padding: 10px 0;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    
+    border-bottom: 3px solid #000;  
+    background-color: #141414;
+}
+#respo{
+    position: relative;
+    left: 45vw;
+   font-weight: bold;
+   text-shadow: 1px 1px 1px rgb(172, 15, 15);;
+    
+ 
+}
+.dctab{
+    background-color: rgb(177, 27, 27);
+    color: #fff;
+    border-radius: 10px;
+    padding: 50px;
+    width: 550px;
+    margin: 30px 25vw;
+    box-shadow: 4px 4px 10px rgb(0, 0, 0);
+    position: relative;
+}
+main{
+    background-color: rgb(177, 27, 27);
+color: #fff;
+border-radius: 10px;
+padding: 50px;
+width: 550px;
+margin: 30px 25vw;
+box-shadow: 4px 4px 10px rgb(0, 0, 0);
+position: relative;
+}
+.dc{
+    margin: 25px 25px;
+}
+body{
+    font-family: Helvetica, sans-serif;
+    font-size: 1.5vw;
+    color: #000;
+    background-color: #141414;
+}
+nav ul {
+	float: right;
+	margin-right: 20px;
+}
+nav ul li {
+	display: inline-block;
+	line-height: 80px;
+	margin: 0 5px;
+}
+nav ul li a {
+	color: white;
+	font-size: 17px;
+	padding: 7px 13px;
+	border-radius: 3px;
+	text-transform: uppercase;
+}
+/*
+a.active, a:hover {
+	background: #1d075f;
+	transition: .5s;
+}
+.checkbtn {
+	font-size: 30px;
+	color: white;
+	float: right;
+	line-height: 80px;
+	margin-right: 40px;
+	cursor: pointer;
+	display: none;
+}
+#check {
+	display: none;
+}
+@media (max-width: 952px){
+	label.logo{
+		font-size: 30px;
+		padding-left: 50px;
+	}
+	nav ul li a{
+		font-size: 16px;
+	}
+}
+@media (max-width: 858px){
+	.checkbtn {
+		display: block;
+	}
+	ul{
+		position: fixed;
+		width: 100%;
+		height: 100vh;
+		background: #1d075f;
+		top: 80px;
+		left: -100%;
+		text-align: center;
+		transition: all .5s;
+	}
+	nav ul li{
+		display: block;
+		margin: 50px 0;
+		line-height: 30px;
+	}
+	nav ul li a {
+		font-size: 20px;
+	}
+	a:hover, a.active {
+		background: none;
+		color: #5434af;
+	}
+	#check:checked ~ ul {
+		left: 0;
+	}
+}
+*/
+
+.menu ul li a{
+    text-decoration: none;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: rgb(214, 21, 21);       
+    border-radius: 5px;
+    margin: 0px 20px; 
+    display: inline-block;
+    left: 29vw;
+    font-size: 20pt;
+    position: relative;
+    
+   
+}
+.conta{
+    width: 780px;
+    background-color:rgb(202, 18, 18) ;
+    box-shadow: 3px 3px 10px rgb(245, 6, 6);
+    position: relative;
+    left: 20vw;
+    top: 10vw;
+    padding: 10px 10px;
+}
+.menu ul li{
+    display: inline-block;
+   color: rgb(177, 27, 27);
+    
+}
+.menu ul li :hover{
+    display: inline-block;
+   color: rgb(177, 27, 27);
+    
+}
+
+.logo img{
+margin: 10px 30px;
+}
+.td1{
+    position: relative;
+    color: black;
+}
+
+.td2{
+    color: black;
+    position: relative;
+    
+}
+#btn1{
+    
+        width: 25%;
+        font-size: 18px;
+        border-radius: 4px;
+        color: #fff;
+        height: 40px;
+        margin-bottom: 20px;
+        cursor: pointer;
+        display: block;
+        background: rgb(0, 255, 0);
+        border: none;
+        border-bottom: 1px solid green;
+        border-right: 1px solid green;
+        transition: 1s;
+        position: relative;
+       
+    
+}
+#btn1:hover{
+    background-color: rgb(29, 99, 29);
+}
+.bot{
+    background-color: rgb(245, 6, 6);
+    border-radius: 3px;
+    cursor: pointer;
+    margin-bottom: 20px;
+    margin: 25px 25px;
+    width: 4%;
+    border-bottom: 1.5px solid red;
+    border-right: 1.5px solid red;
+    border-left: 1.5px solid red;
+    border-top: 1.5px solid red;
+    
+}
+
+
+
+
+ .cro{
+    color: #fff;
+    margin: 25px 25px ;
+}
+.d h1 {
+    margin: 150px 50px;
+    color: #fff;
+    font: normal 20pt ARIAL;
+    border-bottom: 2px solid black;
+}
+table{
+    position: relative;
+   display: flex;
+   justify-content: center;
+  width: 21%;
+  left: 37vw;
+  background-color: rgb(170, 32, 32);
+  box-shadow: 3px 3px 10px rgb(0, 0, 0);
+}
+tr{
+    color: #fff;
+    font-size: normal 15pt Arial;
+    
+
+}
+
+footer {
+    color: #fff;
+    padding: 50px 0px;
+    text-align: center;
+    font-weight: bold;
+    justify-content: center;
+    display: flex;
+}
+  #face {
+    color: blue;
+}
+#inst {
+ color: crimson;
+}
+#what{
+    color:rgb(0, 255, 0) ;
+}
+    
+
+
+footer .container p {
+    color: #fff;
+    text-align: center;
+    font-weight: bold;
+    justify-content: center;
+    display: flex;
+}
+@media only screen and (max-width: 600px){
+
+    .dctab{
+        background-color: rgb(177, 27, 27);
+        color: #fff;
+        border-radius: 10px;
+        padding: 50px;
+        width: 230px;
+        margin: 30px 25vw;
+        box-shadow: 4px 4px 10px rgb(0, 0, 0);
+        position: relative;
+    }
+    main{
+        background-color: rgb(177, 27, 27);
+        
+    color: #fff;
+    border-radius: 10px;
+    padding: 50px;
+    width: 230px;
+    margin: 30px 25vw;
+    box-shadow: 3px 3px 10px rgb(245, 6, 6);
+    position: relative;
+    }
+    .dc{
+        margin: 10px 10px;
+    }
+   .bot{
+       width: 15%;
+       margin: 10px 10px;
+   }
+   .cro{
+       margin: 10px 10px;
+       left: 10vw;
+   }
+   .d{
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 10px;
+    
+   }
+    #btn1{
+    
+        width: 50%;
+        font-size: 18px;
+        border-radius: 4px;
+        color: #fff;
+        height: 40px;
+        margin-bottom: 20px;
+        cursor: pointer;
+        background: rgb(0, 255, 0);
+        border: none;
+        border-bottom: 1px solid green;
+        border-right: 1px solid green;
+        transition: 1s;
+        display: block;
+        
+       
+    
+}
+#btn1:hover{
+    background-color: rgb(29, 99, 29);
+}
+.conta{
+    width: 65%;
+    background-color:rgb(177, 27, 27) ;
+    box-shadow: 3px 3px 10px rgb(245, 6, 6);
+    position: relative;
+    left: 20vw;
+    top: 10vw;
+    padding: 10px 10px;
+}
+} 

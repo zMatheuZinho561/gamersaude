@@ -10,7 +10,7 @@ if(num == '' && num == 0){
     window.alert('Por Favor Insira Um Numero.')
     
 }else if(num <= 2){
-res.innerHTML += `Você Joga ${num} Horas Por Dia Isso é Normal Continui Assim.`
+res.innerHTML += `Você Joga ${num} Horas Por Dia Isso é Normal Continue Assim.`
 }else{
 
 if(num == 3){

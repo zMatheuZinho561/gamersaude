@@ -10,7 +10,7 @@ header{
     align-items: center;
     
     border-bottom: 3px solid #000;  
-    background-color: #141414;
+    background-color: #f5f5f5f5;
 }
 #respo{
     position: relative;
@@ -47,7 +47,7 @@ body{
     font-family: Helvetica, sans-serif;
     font-size: 1.5vw;
     color: #000;
-    background-color: #141414;
+    background-color: #f5f5f5f5;
 }
 nav ul {
 	float: right;
@@ -216,7 +216,7 @@ margin: 10px 30px;
 }
 .d h1 {
     margin: 150px 50px;
-    color: #fff;
+    color: #000;
     font: normal 20pt ARIAL;
     border-bottom: 2px solid black;
 }
@@ -230,14 +230,14 @@ table{
   box-shadow: 3px 3px 10px rgb(0, 0, 0);
 }
 tr{
-    color: #fff;
+    color: #000;
     font-size: normal 15pt Arial;
     
 
 }
 
 footer {
-    color: #fff;
+    color: #000;
     padding: 50px 0px;
     text-align: center;
     font-weight: bold;
@@ -257,7 +257,7 @@ footer {
 
 
 footer .container p {
-    color: #fff;
+    color: #000;
     text-align: center;
     font-weight: bold;
     justify-content: center;
